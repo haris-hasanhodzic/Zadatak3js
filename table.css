@@ -1,0 +1,222 @@
+root { 
+    display: block;
+}
+.container{
+    width:80%;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table-div{
+    padding: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #E5E5E5;
+    width:70%;
+    border-radius: 10px;
+    display:inline-block;
+}
+.table-div .pages{
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    display:inline-block;
+    text-align: center;
+    
+}
+.table{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+    
+}
+.table tr:nth-child(even) td {background: #FFFFFF}
+.table tr:nth-child(odd) td{background: #F5F5F5}
+
+.table tr td{
+    text-align: center;
+    line-height: 1.42857;
+    padding: 5px;
+    border-top-width: 1px;
+    border-top-color: #A5A5A5;
+    border-top-style: solid;
+}
+
+.table tr th{
+    line-height: 1.6;
+    padding: 8px;
+    border-bottom-width: 2px;
+    border-bottom-color: #A5A5A5;
+    border-bottom-style: solid;
+}
+
+.table-hower tr:hover td{
+    background-color: #E1E1E1;
+}
+.search{
+    width:25%;
+    display:inline-block;
+    float:right;
+    position:relative;
+}
+.search .find{
+    float:right;
+    width:70%;
+    height:40px;
+    font-size: 20px;
+    margin-right: 35px;
+    margin-top:5px;
+}
+.search input{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+}
+.search .title{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #E5E5E5;
+    border-radius: 10px;
+    width:90%;
+    text-align:center;
+    padding: 10px 0 10px 0;  
+    margin-left: auto;
+    margin-right: auto;
+}
+.search form{
+    margin-top: 5px;
+}
+.search input{
+    width:80%;
+}
+
+.edit .group label{
+    width: 17%;
+    text-align: right;
+    margin: 5px 15px 0 10px;
+    float: left;
+    display: inline-block;
+    font-weight: bold;
+}
+.edit .group input{
+    width:65%; 
+}
+.edit .save{
+    float:right;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    width:10%;
+    background-color: #5CB85C;
+    border-color: #4CAE4C;
+    color: #FFFFFF;
+    margin-right: 5px;
+
+}
+.edit .save:hover{
+    background-color: #47A447;
+    border-color: #398439;
+    color: #FFFFFF;
+}
+
+.edit .group{
+    margin: 7px 0 7px 0;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.edit .btn-warning{
+     width:10%;
+     margin-right: 24.5%;
+     float: right; 
+}
+.btn-warning{
+       
+    border-radius: 4px;
+    background-color: #F0AD4E;
+    border-color: #EEA236;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap
+}
+.btn-warning:hover{
+    background-color: #ED9C28;
+    border-color: #D58512;
+    color: #FFFFFF;
+}
+.edit .title {
+    text-align: center;
+}
+.primary{
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: #428BCA;
+    border-color: #357EBD;
+    color: #FFFFFF;
+    float:right;
+    margin-right: 15px;
+    width:15%;
+}
+.primary:hover{
+    background-color: #3276B1;
+    border-color: #285E8E;
+    color: #FFFFFF;
+}
+.container h3{
+    display:inline;
+}
+.btn-danger{
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.0;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: #D9534F;
+    border-color: #D43F3A;
+    color: #FFFFFF;
+}
+.btn-danger{
+    background-color: #D2322D;
+    border-color: #AC2925;
+    color: #FFFFFF;
+}
+span.error{
+    display:block;
+    text-align: right;
+    width:85%;
+    margin-right: 10%;
+    color:red;
+}
